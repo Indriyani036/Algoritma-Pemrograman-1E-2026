@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="soal1.modul2"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-05 01:24:15 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUJNRkg0QVY7MjAyNi0xMC0wNTsxMjowODo1OCBQTTsyNzcw"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUJNRkg0QVY7MjAyNi0xMC0wNTswMToyNDoxNSBQTTsxOzI4Njc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nilaiakhir" type="Integer" array="False" size=""/>
+            <output expression="&quot;masukkan nilai akhir&quot;" newline="True"/>
+            <input variable="nilaiakhir"/>
+            <if expression="nilaiakhir % 2 == 0">
+                <then>
+                    <output expression="&quot;genap&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ganjil&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
